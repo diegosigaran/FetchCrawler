@@ -1,0 +1,649 @@
+# ============================================================
+# .NET BUILD OUTPUT
+# ============================================================
+
+# Build output directories
+[Bb]in/
+[Oo]bj/
+
+# Common alternative build directories
+[Bb]uild/
+[Bb]uilds/
+[Aa]rtifacts/
+
+# .NET publish output
+[Pp]ublish/
+
+# Debug / Release directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+
+# ============================================================
+# RIDER / JETBRAINS
+# ============================================================
+
+# Rider project configuration
+.idea/
+
+# JetBrains module files
+*.iml
+
+# User-specific Rider / ReSharper settings
+*.DotSettings.user
+
+# IMPORTANT:
+# Do NOT ignore *.sln.DotSettings by default.
+# These can contain team-shared Rider/ReSharper settings.
+
+# Example that SHOULD normally be committed:
+# MySolution.sln.DotSettings
+
+
+# ============================================================
+# VISUAL STUDIO
+# ============================================================
+
+# Visual Studio local workspace
+.vs/
+
+# User-specific Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio temporary files
+*.rsuser
+
+# Visual Studio Code
+#
+# Uncomment this if you don't want shared VS Code config:
+# .vscode/
+
+
+# ============================================================
+# NUGET / PACKAGES
+# ============================================================
+
+# NuGet package directory
+packages/
+
+# NuGet generated packages
+*.nupkg
+*.snupkg
+
+# NuGet package restore files that may be generated locally
+.nuget/
+
+# NuGet package lock backups
+packages.lock.json.bak
+
+# Do NOT ignore packages.lock.json automatically.
+# It can be useful and should often be committed.
+
+
+# ============================================================
+# TEST RESULTS
+# ============================================================
+
+TestResults/
+[Tt]est[Rr]esults/
+
+# Visual Studio test output
+*.trx
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# xUnit / test runner output
+xunit-results/
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+
+# ============================================================
+# CODE COVERAGE
+# ============================================================
+
+coverage/
+coverage-results/
+
+# Coverlet
+coverage*.json
+coverage*.xml
+coverage*.info
+coverage*.lcov
+
+# Visual Studio coverage
+*.coverage
+*.coveragexml
+
+# JetBrains dotCover
+*.dotCover
+dotCover.Output/
+
+# Generic coverage reports
+[Cc]overage[Rr]eports/
+
+
+# ============================================================
+# ASP.NET CORE
+# ============================================================
+
+# User secrets should NOT live inside the repository anyway,
+# but ignore common local secret directories if created.
+secrets/
+.secrets/
+
+# ASP.NET generated static files
+wwwroot/dist/
+wwwroot/build/
+
+# Scaffolding / generated temporary content
+ScaffoldingReadMe.txt
+
+
+# ============================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ============================================================
+
+.env
+.env.local
+.env.*.local
+
+# Common environments
+.env.development.local
+.env.staging.local
+.env.production.local
+.env.test.local
+
+# Keep templates/examples
+!.env.example
+!.env.template
+!.env.sample
+
+# Generic secret/config overrides
+secrets.json
+appsettings.Local.json
+appsettings.local.json
+
+# Local development appsettings
+appsettings.Development.local.json
+appsettings.LocalDevelopment.json
+
+# Don't blindly ignore appsettings.Development.json.
+#
+# It is commonly committed when it contains only
+# non-sensitive development defaults.
+
+
+# ============================================================
+# CERTIFICATES / KEYS
+# ============================================================
+
+# Private keys / certificates
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Be careful with *.crt / *.cer:
+# public certificates may legitimately belong in source control.
+
+# *.crt
+# *.cer
+
+
+# ============================================================
+# DATABASES
+# ============================================================
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+# Local database storage
+data/
+local-db/
+local-database/
+
+
+# ============================================================
+# ENTITY FRAMEWORK CORE
+# ============================================================
+
+# EF Core migrations SHOULD normally be committed.
+#
+# DO NOT ignore:
+#
+# Migrations/
+#
+# They represent your database schema history.
+
+# Temporary migration scripts
+*.migration.sql.tmp
+
+
+# ============================================================
+# LOGS
+# ============================================================
+
+[Ll]ogs/
+*.log
+
+# ASP.NET / Serilog local logs
+logs/
+log/
+
+# Diagnostic logs
+*.dlog
+
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+
+tmp/
+temp/
+.tmp/
+.temp/
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Patch reject files
+*.rej
+
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
+
+# ------------------------------------------------------------
+# macOS
+# ------------------------------------------------------------
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+._*
+
+# macOS metadata
+.Spotlight-V100
+.Trashes
+
+# Network share metadata
+.apdisk
+
+
+# ------------------------------------------------------------
+# Windows
+# ------------------------------------------------------------
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+[Dd]esktop.ini
+
+$RECYCLE.BIN/
+
+*.lnk
+
+
+# ============================================================
+# EDITOR TEMPORARY FILES
+# ============================================================
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Generic editor backup
+*~
+
+
+# ============================================================
+# RE-SHARPER / JETBRAINS TOOLS
+# ============================================================
+
+# ReSharper generated files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# User-specific settings only
+*.DotSettings.user
+
+# Team/shared .DotSettings files should normally remain tracked.
+
+
+# ============================================================
+# DOTTRACE / DOTMEMORY / PROFILING
+# ============================================================
+
+# JetBrains profiling snapshots
+*.dtp
+*.dtt
+*.dmw
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Generic memory dumps
+*.dmp
+*.dump
+
+# .NET trace files
+*.nettrace
+
+# Performance counters
+*.gcdump
+
+
+# ============================================================
+# .NET RUNTIME / DEBUGGING
+# ============================================================
+
+# Runtime files
+*.pid
+*.pid.lock
+
+# Crash dumps
+core
+core.*
+
+# Symbol caches
+symbol-cache/
+
+
+# ============================================================
+# MSBUILD
+# ============================================================
+
+# MSBuild binary logs
+*.binlog
+
+# MSBuild temporary files
+*.cache
+
+# Generated response files
+*.rsp.tmp
+
+# Temporary project files
+*_wpftmp.csproj
+
+
+# ============================================================
+# SOURCE GENERATORS
+# ============================================================
+
+# Source-generator output, if configured to emit files locally
+Generated/
+generated/
+
+# CAUTION:
+# If your application intentionally keeps generated source
+# in Git, remove these rules.
+
+
+# ============================================================
+# FRONTEND / NODE
+# ============================================================
+#
+# Useful for ASP.NET + Angular / React / TypeScript solutions.
+
+node_modules/
+
+# npm
+.npm/
+npm-debug.log*
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+
+# pnpm
+.pnpm-store/
+pnpm-debug.log*
+
+# Frontend build output
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# Angular
+.angular/
+.angular/cache/
+
+# Next.js
+.next/
+
+# Turbo
+.turbo/
+
+# Nx
+.nx/
+
+
+# ============================================================
+# JAVASCRIPT / FRONTEND TESTING
+# ============================================================
+
+# Jest / Vitest / Istanbul
+.nyc_output/
+.vitest/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# ESLint
+.eslintcache
+
+# Stylelint
+.stylelintcache
+
+
+# ============================================================
+# DOCKER
+# ============================================================
+
+# Docker Compose local overrides can contain machine-specific
+# configuration.
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Local Docker data
+.docker/
+
+# Local container volumes
+docker-data/
+docker-volumes/
+
+
+# ============================================================
+# AZURE / CLOUD DEVELOPMENT
+# ============================================================
+
+# Azure Functions local settings often contain secrets
+local.settings.json
+
+# Azure Functions artifacts
+.azurefunctions/
+
+# Azure deployment files
+*.azurePubxml
+
+# Azure publish settings
+*.pubxml.user
+
+# Local Azure emulator data
+.azurite/
+
+# Azure Functions secret storage
+.azure/
+
+
+# ============================================================
+# PUBLISH PROFILES
+# ============================================================
+
+# Publish profiles can contain credentials or local settings
+*.pubxml
+*.publishproj
+
+# Web deployment settings
+*.publish.xml
+
+
+# ============================================================
+# GITHUB / CI LOCAL ARTIFACTS
+# ============================================================
+
+# Don't ignore .github/
+# GitHub Actions workflows belong in source control.
+
+# Local CI output
+ci-output/
+ci-artifacts/
+
+
+# ============================================================
+# DOCUMENTATION BUILD OUTPUT
+# ============================================================
+
+docs/_site/
+site/
+
+
+# ============================================================
+# LOCAL DEVELOPMENT DATA
+# ============================================================
+
+.local/
+local-data/
+dev-data/
+
+# Uncomment if appropriate for your project:
+# mock-data/generated/
+
+
+# ============================================================
+# C# SCRIPT / INTERACTIVE
+# ============================================================
+
+# C# Interactive / scratch output
+*.csx.tmp
+
+
+# ============================================================
+# SONAR / STATIC ANALYSIS
+# ============================================================
+
+.sonarqube/
+.sonar/
+
+# StyleCop cache / generated artifacts
+StyleCopReport.xml
+
+
+# ============================================================
+# RESHARPER COMMAND LINE TOOLS
+# ============================================================
+
+inspectcode-output/
+cleanupcode-output/
+
+
+# ============================================================
+# PACKAGE / RELEASE ARTIFACTS
+# ============================================================
+
+artifacts/
+release-artifacts/
+
+*.zip.tmp
+*.tar.gz.tmp
+
+
+# ============================================================
+# LOCAL HTTP REQUEST FILES
+# ============================================================
+
+# Rider / JetBrains HTTP client request history
+.idea/httpRequests/
+
+# Environment files for HTTP client may contain credentials
+http-client.private.env.json
+
+
+# ============================================================
+# IMPORTANT FILES THAT SHOULD GENERALLY NOT BE IGNORED
+# ============================================================
+
+# These comments are intentionally here as reminders.
+#
+# Normally COMMIT:
+#
+# *.sln
+# *.slnx
+# *.csproj
+# *.props
+# *.targets
+# Directory.Build.props
+# Directory.Build.targets
+# Directory.Packages.props
+# global.json
+# NuGet.config
+# packages.lock.json
+# *.sln.DotSettings
+# Dockerfile
+# docker-compose.yml
+# appsettings.json
+# appsettings.Development.json      <- assuming no secrets
+# Migrations/
+# .github/
+
+AppDbContextModelSnapshot.cs
+
+
