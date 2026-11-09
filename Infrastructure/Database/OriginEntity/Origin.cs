@@ -1,5 +1,8 @@
 namespace Infrastructure.Database.OriginEntity;
 
+/// <summary>
+/// Represents scheme + hostname + port
+/// </summary>
 public class Origin
 {
     public int RecordNumber { get; set; }
